@@ -5,7 +5,7 @@ FROM nginx:stable-alpine
 COPY index.html *.png /usr/share/nginx/html/
 
 LABEL MAINTAINER="Johannes Sim" \
-      REFRESHED_AT="2017-10-22"
+      REFRESHED_AT="2017-11-05"
 
 # build:  docker image build -t sim007/staticws:latest .
 
