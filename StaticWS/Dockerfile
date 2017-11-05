@@ -18,6 +18,8 @@ LABEL MAINTAINER="Johannes Sim" \
 # delete: docker container rm -f staticws
 # in:     docker container exec -it staticws /bin/sh
 
+# compose: docker-compose up -d
+
 
 # Azure registry
 # build:  docker image build -t centricms.azurecr.io/staticws/staticws:latest .
